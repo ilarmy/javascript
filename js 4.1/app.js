@@ -1,9 +1,18 @@
-
-let c=1;
-while(c<100 ){
-    c=c+1
-    alert(c);
-    c++
-   
+const eded =89;
+let number= +prompt("daxil et");
+let count=1;
+while (number!== eded){
+    number= +prompt("daxil et");
+    console.log(eded);
 }
-//1-den 100 e qeder cut ededlerin cemi
+count++;
+console.log("kapital bank hesabinda 1000 manat kocurulsun");
+if (count===1){
+    console.log("1000 manat");
+}else if(1<=5){
+    console.log("750 manat");
+}else if(6<=9){
+    console.log("250 manat");
+}else{
+    console.log("-250 manat");
+}
